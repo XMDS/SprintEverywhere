@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SprintEverywhere.cpp" />
+    <ClCompile Include="ARMHook\ARMHook.cpp">
+      <Filter>ARMHook</Filter>
+    </ClCompile>
+    <ClCompile Include="AML\logger.cpp">
+      <Filter>AML</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SprintEverywhere.h" />
+    <ClInclude Include="ARMHook\ARMHook.h">
+      <Filter>ARMHook</Filter>
+    </ClInclude>
+    <ClInclude Include="CLEO_SDK\cleo.h">
+      <Filter>cleo_sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="AML\amlmod.h">
+      <Filter>AML</Filter>
+    </ClInclude>
+    <ClInclude Include="AML\iaml.h">
+      <Filter>AML</Filter>
+    </ClInclude>
+    <ClInclude Include="AML\interface.h">
+      <Filter>AML</Filter>
+    </ClInclude>
+    <ClInclude Include="AML\logger.h">
+      <Filter>AML</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ARMHook">
+      <UniqueIdentifier>{e554ec55-24d2-4eca-8c66-bc8846f64fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cleo_sdk">
+      <UniqueIdentifier>{8347b1d7-1e6f-4299-9581-4108e834ee43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AML">
+      <UniqueIdentifier>{a94fa321-b82f-4ebe-8359-9ac29bfaee58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
