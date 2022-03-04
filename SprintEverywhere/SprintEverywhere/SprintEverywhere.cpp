@@ -11,11 +11,10 @@ MYMOD(net.xmds.SprintEverywhere, SprintEverywhere, 1.0, XMDS)
 cleo_ifs_t* cleo;
 uintptr_t LibAddr;
 
-void ret()
+int ret()
 {
-	return;
+	return 0;
 }
-
 
 //cleo plugin entrance
 extern "C" __attribute__((visibility("default"))) void plugin_init(cleo_ifs_t * ifs)

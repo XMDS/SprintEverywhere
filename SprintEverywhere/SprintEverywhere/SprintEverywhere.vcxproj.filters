@@ -10,7 +10,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SprintEverywhere.h" />
     <ClInclude Include="ARMHook\ARMHook.h">
       <Filter>ARMHook</Filter>
     </ClInclude>

@@ -167,7 +167,6 @@
     <ClInclude Include="AML\logger.h" />
     <ClInclude Include="ARMHook\ARMHook.h" />
     <ClInclude Include="CLEO_SDK\cleo.h" />
-    <ClInclude Include="SprintEverywhere.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
