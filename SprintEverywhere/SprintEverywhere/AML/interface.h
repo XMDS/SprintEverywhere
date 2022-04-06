@@ -23,7 +23,7 @@ inline void* GetInterface(const char* szInterfaceName)
 #else
     GetInterfaceFn _GetInterface = (GetInterfaceFn)dlsym((void*)dlopen("lib" DEFAULT_LIB_NAME ".so", RTLD_NOW), "GetInterface");
 #endif
-    return _GetInterface(szInterfaceName);
+        return _GetInterface(szInterfaceName);
 }
 
 inline void RegisterInterface(const char* szInterfaceName, void* pInterface)
